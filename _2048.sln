@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2048.Core", "2048.Core\2048.Core.csproj", "{9FE76890-DF64-445C-BAC1-25E38FB9CA89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2048.Core", "_2048.Core\_2048.Core.csproj", "{9FE76890-DF64-445C-BAC1-25E38FB9CA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
