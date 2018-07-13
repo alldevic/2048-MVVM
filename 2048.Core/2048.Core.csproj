@@ -7,8 +7,8 @@
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UseMSBuildEngine>true</UseMSBuildEngine>
     <OutputType>Library</OutputType>
-    <RootNamespace>2048.Core</RootNamespace>
-    <AssemblyName>2048.Core</AssemblyName>
+    <RootNamespace>_2048.Core</RootNamespace>
+    <AssemblyName>_2048.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
   </PropertyGroup>
@@ -28,7 +28,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Converters\CellsGridValueConverter.cs" />
+    <Compile Include="Converters\ValueColorValueConverter.cs" />
+    <Compile Include="Model\Cell.cs" />
+    <Compile Include="Model\Colors.cs" />
+    <Compile Include="Model\Coordinate.cs" />
+    <Compile Include="Model\GameModel.cs" />
+    <Compile Include="Model\MoveDirection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\GameViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
